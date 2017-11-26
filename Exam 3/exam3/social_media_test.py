@@ -25,9 +25,12 @@ def userMenu(activeUser):
             if postOption == "1":
                 print(activeUser.post.viewPosts())
             if postOption == "2":
-                print(activeUser.post.viewPosts())
-                delPost = int(input("Enter the number of the post you want to delete: "))
-                activeUser.post.posts.remove(activeUser.post.posts[delPost])
+                if activeUser.post.posts:
+                    print(activeUser.post.viewPosts())
+                    delete = int(input("Enter the number of the post you want to delete: "))
+                    activeUser.post.delPost(delete, activeUser)
+                else:
+                    print("No posts")
 
         if action == "3":
             postText = input("What do you want your post to say: \n")

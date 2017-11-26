@@ -31,6 +31,9 @@ class post:
     def makePost(self, text):
         self.posts.append(text)
 
+    def delPost(self, delete, activeUser):
+        activeUser.post.posts.remove(activeUser.post.posts[delete])
+
     def viewPosts(self):
         for post in self.posts:
             return self.posts.index(post), post
