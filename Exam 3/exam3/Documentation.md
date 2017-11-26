@@ -4,15 +4,20 @@
 ## PERSON
 - A user can register to use the system: 
       Run the test file
+      
       Enter 1 for create a new user
+      
       Enter desired username and password
+      
     With the inputted information, a user will be created as a 'Person' object and appened to the userList found in the test file
     
 - After login the user ID is used for all other calls
+
     Exmaples of this include the situation in which a user adds a friend by inserting the friends username
 
 ## FRIEND
 - A list of friends is returned for a user
+
       Run test file
       Log in to created account
       Type 4 to view current list of friends
