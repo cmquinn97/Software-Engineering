@@ -1,6 +1,9 @@
-# Note:
+# Note on users:
   When the program is initally run there are no created users. You must create one before you login. Once users have been created you can export them (see system documentation below), and then you will have the ability to import these users along with their previous friends and posts, next time you start the program (see system documentation).
 
+# Not on Log in:
+  When logging in you only enter your password and it will access the user with the password entered (password saves in the Person object).
+  
 ## PERSON
 - A user can register to use the system: 
 
@@ -73,7 +76,7 @@
       
     This will remove the post from the logged in users posts list
     
-# SYSTEM
+## SYSTEM
 - Reset all data
 
       Run test file
