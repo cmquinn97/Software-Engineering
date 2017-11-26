@@ -30,6 +30,7 @@
       Insert username of another user within the system
       
     When the user adds a friend by username, the friend automattically becomes friends with the user.
+    
     There is an add friend method within the Person class which is called in the test file
     
 - Remove a friendship
@@ -40,6 +41,7 @@
       Type username of friend you wish to remove
       
     The friend will be removed from your friends list, as well as you removed from theirs
+    
     There is a remove friend method within the Person class
     
 ## POST
@@ -89,6 +91,7 @@
       Type 2 to export
       
     To export objects I am using a library called pickle
+    
     This will save all the users to a file called users.pickle as well as the friends and posts that those users have made
     
 - Import
